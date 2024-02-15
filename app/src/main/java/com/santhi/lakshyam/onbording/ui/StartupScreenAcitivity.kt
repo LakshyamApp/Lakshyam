@@ -17,7 +17,7 @@ class StartupScreenAcitivity : AppCompatActivity() {
         Handler(Looper.getMainLooper()).postDelayed({
             // This method will be executed once the timer is over
             // Start your app's main activity
-            val intent = Intent(this, MainActivity::class.java)
+            val intent = Intent(this, PaperOnBordingActivity::class.java)
             startActivity(intent)
 
             // Close this activity
